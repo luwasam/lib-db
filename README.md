@@ -41,7 +41,7 @@ my_library_db.py
 ### Set Up the library.txt File:
 Create a library.txt file in the C:\Testdata\lib-db directory if it does not already exist.<br/>
 The file should be formatted with one book per line, using the following format:<br/>
-Book Name/Author Name/ISBN/Year
+Book Name/Author Name/ISBN/Year<br/>
 Make sure the library.txt file is located in i.e. C:\Testdata\lib-db directory without white spaces.
 
 **Run the Program:**
