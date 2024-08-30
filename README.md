@@ -16,31 +16,37 @@ The database is stored in a file with each book's details recorded on a new line
 - Python 3.x installed on your system.
 
 **Getting Started**
-1) Clone the Repository for example to file C:\Testdata\:
-cd C:\Testdata
-git clone https://github.com/luwasam/lib-db.git
+1) Clone the Repository for example to folder C:\Testdata\:<br/>
+cd C:\Testdata<br/>
+git clone https://github.com/luwasam/lib-db.git<br/>
 
 or
 
-2) file of your choosing, but make sure you change the path from line 143 from the my_library_db.py file to:
-base_directory = r"C:\YOUROWNFILEPATH\lib-db" 
+2) folder of your choosing, but make sure you change the path<br/>
+from line 143 from the my_library_db.py file to:<br/>
+base_directory = r"C:\YOUROWNFOLDER\lib-db" 
 
 ## Project Structure
 
-For example:
+For example, file path:
 C:\Testdata\lib-db
-│
-├── my_library_db.py    # Main script to run the program
-└── library.txt         # Text file where the book database is stored
 
+### Which includes
+### Text file where the book database is stored
+library.txt         
 
-**Set Up the library.txt File:**
-Create a library.txt file in the C:\Testdata\lib-db directory if it does not already exist.
-The file should be formatted with one book per line, using the following format:
+### Python file
+my_library_db.py
+
+### Set Up the library.txt File:
+Create a library.txt file in the C:\Testdata\lib-db directory if it does not already exist.<br/>
+The file should be formatted with one book per line, using the following format:<br/>
 Book Name/Author Name/ISBN/Year
+Make sure the library.txt file is located in i.e. C:\Testdata\lib-db directory without white spaces.
 
 **Run the Program:**
 
-Use the following command to run the program:
-python my_library_db.py library.txt
-Make sure the library.txt file is located in i.e. C:\Testdata\lib-db directory.
+Use the following command to run the program:<br/>
+python my_library_db.py library.txt <br/>
+![image](https://github.com/user-attachments/assets/20ee724f-31fb-488a-a45b-ae3ffe1b88e6) <br/>
+![image](https://github.com/user-attachments/assets/bcb28e14-d381-4376-b4e3-b71af5774960)
