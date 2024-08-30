@@ -139,8 +139,8 @@ def main():
         print("To access database, use: python my_library_db.py library.txt")
         return
 
-    # Adjust file path to include C:\Testdata
-    base_directory = r"C:\Testdata"
+    # Adjust file path to include C:\Testdata\lib-db
+    base_directory = r"C:\Testdata\lib-db"
     filename = sys.argv[1]
     filepath = os.path.join(base_directory, filename)
 
